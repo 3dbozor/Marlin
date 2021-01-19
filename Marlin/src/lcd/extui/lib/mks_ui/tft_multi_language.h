@@ -28,6 +28,7 @@
 #include "tft_Language_fr.h"
 #include "tft_Language_sp.h"
 #include "tft_Language_it.h"
+#include "tft_Language_uz.h"
 
 extern void disp_language_init();
 
@@ -44,6 +45,7 @@ extern void disp_language_init();
 #define LANG_GREEK            11
 #define LANG_ITALY            12
 #define LANG_PORTUGUESE       13
+#define LANG_UZBEK            14
 
 #define MULTI_LANGUAGE_ENABLE   1
 #define MULTI_LANGUAGE_DISABLE  0
@@ -791,6 +793,7 @@ extern eeprom_def eeprom_menu;
 #define LANGUAGE_BR         "Brazil"
 #define LANGUAGE_RU         "русский"
 #define LANGUAGE_SP         "español"
+#define LANGUAGE_UZ         "O'zbekcha"
 
 #define HOME_X_TEXT         "X"
 #define HOME_Y_TEXT         "Y"
